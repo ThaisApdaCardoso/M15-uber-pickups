@@ -13,7 +13,6 @@ import numpy as np
 
 # título do app
 st.title('Uber pickups in NYC')
-streamlit run uber_pickups.py
 
 DATE_COLUMN = 'date/time'
 DATA_URL = ('https://s3-us-west-2.amazonaws.com/'
